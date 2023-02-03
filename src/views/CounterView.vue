@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="text-center">
     <h3>Counter</h3>
     <h4>{{variable}}</h4>
-    <input @click="mas" type="button">
-    <input @click="menos" type="button">
+    <v-btn class="mr-2" color="red" icon dark size="30" @click="menos">-</v-btn>
+    <v-btn color="info" icon dark  size="30" @click="mas" >+</v-btn>
+
   </div>
 </template>
 
